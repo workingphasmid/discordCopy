@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import Scroller from "./components/Scroller";
+import ServersSidebar from "./components/ServersSidebar";
+import MainChat from "./components/MainChat";
 
 function App() {
   return (
     <>
-      <Scroller />
+      <ServersSidebar />
+      <MainChat />
     </>
   );
 }
