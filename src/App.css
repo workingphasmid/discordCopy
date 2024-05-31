@@ -1,3 +1,12 @@
+:root {
+  /* Colors */
+  --black: #000;
+  --white: #fff;
+  --green-400: #23a559;
+  --background-color-100: #4e5058;
+  --background-color-200: #191b1d;
+}
+
 #root {
   min-width: 100vw;
   min-height: 100vh;
