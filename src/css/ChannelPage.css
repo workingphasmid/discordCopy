@@ -1,0 +1,7 @@
+/* ServersSidebar */
+.ServersSidebar {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--background-color-200);
+}

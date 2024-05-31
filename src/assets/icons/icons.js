@@ -1,7 +1,7 @@
-import discordIcon from "./discord.svg";
+import discordWhite from "./discord-white.svg";
 
 const icons = {
-  discord: discordIcon,
+  discordWhite,
 };
 
 export default icons;
