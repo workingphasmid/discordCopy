@@ -1,12 +1,12 @@
-import { useState } from "react";
 import "./App.css";
-import ServersSidebar from "./components/ServersSidebar";
+import "./css/Channel.css";
+import Sidebar from "./components/Sidebar";
 import MainChat from "./components/MainChat";
 
 function App() {
   return (
     <>
-      <ServersSidebar />
+      <Sidebar />
       <MainChat />
     </>
   );
