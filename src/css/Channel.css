@@ -25,3 +25,16 @@
 
   object-fit: cover;
 }
+
+/* Item */
+.item {
+  border-radius: 50%;
+
+  height: 48px;
+  width: 48px;
+
+  display: flex;
+  place-content: center;
+
+  background-color: var(--background-color-100);
+}
