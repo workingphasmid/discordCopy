@@ -1,10 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import Scroller from "./components/Scroller";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <Scroller />
+    </>
+  );
 }
 
 export default App;
