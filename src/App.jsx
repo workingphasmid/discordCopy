@@ -1,5 +1,5 @@
 import "./App.css";
-import "./css/Channel.css";
+import "./css/Sidebar.css";
 import Sidebar from "./components/Sidebar";
 import MainChat from "./components/MainChat";
 
