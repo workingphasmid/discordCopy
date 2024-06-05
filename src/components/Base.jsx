@@ -1,10 +1,10 @@
 import React from "react";
-import ChannelsSidebar from "./Base/ChannelsSidebar";
+import SidebarChannels from "./Base/SidebarChannels";
 
 const Base = () => {
   return (
     <div>
-      <ChannelsSidebar />
+      <SidebarChannels />
     </div>
   );
 };
