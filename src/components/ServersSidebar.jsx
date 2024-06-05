@@ -1,12 +1,14 @@
 import React from "react";
-import Servers from "../components/Sidebar/Servers";
-import Item from "./Sidebar/Item";
+import Servers from "./ServersSidebar/Servers.jsx";
+import Item from "./ServersSidebar/Item.jsx";
 import icons from "../assets/icons/icons.js";
-import Separator from "./Sidebar/Separator.jsx";
+import Separator from "./ServersSidebar/Separator.jsx";
 
-const Sidebar = () => {
+import styles from "../css/ServersSidebar.module.css";
+
+const ServersSidebar = () => {
   return (
-    <div className="sidebar">
+    <div className={styles["servers-sidebar"]}>
       <Item icon={icons.discordWhite} />
       <Separator />
       <Servers />
@@ -18,4 +20,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default ServersSidebar;

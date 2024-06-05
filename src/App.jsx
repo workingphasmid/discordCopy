@@ -1,12 +1,11 @@
 import "./App.css";
-import "./css/Sidebar.css";
-import Sidebar from "./components/Sidebar";
+import ServersSidebar from "./components/ServersSidebar";
 import MainChat from "./components/MainChat";
 
 function App() {
   return (
     <>
-      <Sidebar />
+      <ServersSidebar />
       <MainChat />
     </>
   );
