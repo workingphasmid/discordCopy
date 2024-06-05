@@ -1,11 +1,11 @@
 import "./App.css";
-import ServersSidebar from "./components/ServersSidebar";
+import SidebarServers from "./components/SidebarServers";
 import Base from "./components/Base";
 
 function App() {
   return (
     <>
-      <ServersSidebar />
+      <SidebarServers />
       <Base />
     </>
   );

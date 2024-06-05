@@ -1,7 +1,7 @@
 import React from "react";
-import Server from "./Server";
+import Server from "./Server.jsx";
 import images from "../../assets/images/images.js";
-import styles from "../../css/ServersSidebar.module.css";
+import styles from "../../css/SidebarServers.module.css";
 
 const Servers = () => {
   return (
