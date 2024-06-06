@@ -1,3 +1,65 @@
+/* Chat */
 .chat {
-  flex: 2 0;
+  background-color: var(--background-color-300);
+
+  flex: 1 0 auto;
+}
+
+/* Hat */
+.chat-hat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px;
+
+  height: 48px;
+
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.chat-hat__channel {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 12px;
+
+  color: var(--white);
+  font-size: 16px;
+}
+
+/* ChatHatActions */
+.chat-hat__actions {
+  color: var(--background-color-200);
+
+  display: flex;
+  place-content: center;
+  gap: 16px;
+}
+
+.chat-hat__container-search {
+  position: relative;
+}
+
+.chat-hat__search {
+  background-color: var(--background-color-600);
+
+  border: none;
+  border-radius: 4px;
+  padding: 4px 6px;
+}
+
+.chat-hat__search::placeholder {
+  color: var(--background-color-200);
+}
+
+.chat-hat__icon-search {
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-10px);
+  right: 0;
 }

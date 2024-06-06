@@ -6,6 +6,7 @@
   background-color: var(--background-color-400);
 
   width: 240px;
+  flex: 0 0 auto;
 }
 
 /* Hat */
@@ -19,6 +20,8 @@
   color: var(--white);
 
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.3);
+
+  height: 48px;
 }
 
 .sidebar-channels__title {

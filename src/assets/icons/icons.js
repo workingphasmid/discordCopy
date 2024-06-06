@@ -9,6 +9,7 @@ import soundGrey200 from "./sound-grey-200.svg";
 import headphoneGrey300 from "./headphone-grey-300.svg";
 import micRed400 from "./mic-red-400.svg";
 import settingGrey300 from "./setting-grey-300.svg";
+import searchGrey200 from "./search-grey-200.svg";
 
 const icons = {
   discordWhite,
@@ -22,6 +23,7 @@ const icons = {
   headphoneGrey300,
   micRed400,
   settingGrey300,
+  searchGrey200,
 };
 
 export default icons;
