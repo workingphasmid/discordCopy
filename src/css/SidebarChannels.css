@@ -9,7 +9,7 @@
 }
 
 /* Hat */
-.hat {
+.sidebar-channels__hat {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,13 +21,11 @@
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.3);
 }
 
-.title {
+.sidebar-channels__title {
   font-size: 16px;
 }
 
-.dropdown {
+.sidebar-channels__dropdown {
   display: flex;
   place-content: center;
 }
-
-/* Channels */

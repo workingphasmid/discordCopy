@@ -6,7 +6,8 @@ const Channels = () => {
   return (
     <div className="sidebar-channels__channels">
       <div className="sidebar-channels__container-channels">
-        <img className="container-channels__dropdown" src={icons.dropdownGrey200}></img>
+        <img src={icons.dropdownGrey200} alt="" className="container-channels__dropdown" />
+        <div className="container-channels__title">Gardener's Association</div>
       </div>
     </div>
   );
