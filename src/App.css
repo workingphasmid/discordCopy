@@ -98,3 +98,17 @@
 
   font-family: "gg sans";
 }
+
+::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+::-webkit-scrollbar-track {
+  margin-block: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--background-color-600);
+
+  border-radius: 100vw;
+}

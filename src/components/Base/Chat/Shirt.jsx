@@ -5,6 +5,18 @@ const Shirt = () => {
   return (
     <div className="chat-shirt">
       <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+      <Message />
     </div>
   );
 };
