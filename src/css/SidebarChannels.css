@@ -45,6 +45,10 @@
   width: 0.4em;
 }
 
+.sidebar-channels__shirt::-webkit-scrollbar-track {
+  margin-block: 2px;
+}
+
 .sidebar-channels__shirt::-webkit-scrollbar-thumb {
   background-color: var(--background-color-500);
 
