@@ -38,6 +38,10 @@
   flex-direction: column;
   gap: 20px;
 
+  overflow-y: hidden;
+}
+
+.sidebar-channels__shirt:hover {
   overflow-y: scroll;
 }
 
