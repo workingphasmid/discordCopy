@@ -7,3 +7,25 @@
 
   width: 20%;
 }
+
+/* Hat */
+.hat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px;
+
+  color: var(--white);
+
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 16px;
+}
+
+.dropdown {
+  display: flex;
+  place-content: center;
+}
