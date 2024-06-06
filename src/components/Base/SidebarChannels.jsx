@@ -17,9 +17,9 @@ const SidebarChannels = () => {
           </div>
         </div>
         <div className="sidebar-channels__shoes-controls">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src={icons.micRed400} alt="" />
+          <img src={icons.headphoneGrey300} alt="" />
+          <img src={icons.settingGrey300} alt="" />
         </div>
       </div>
     </div>
