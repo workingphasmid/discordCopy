@@ -110,6 +110,8 @@
 
 .sidebar-channels__name {
   color: var(--white);
+
+  font-size: 14px;
 }
 
 .sidebar-channels__status {
