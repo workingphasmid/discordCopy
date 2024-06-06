@@ -8,8 +8,9 @@
   --red-400: #f23f42;
   --background-color-200: #858b94;
   --background-color-300: #313338;
-  --background-color-500: #191b1d;
   --background-color-400: #2b2d31;
+  --background-color-500: #232428;
+  --background-color-600: #191b1d;
 }
 
 #root {

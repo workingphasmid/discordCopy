@@ -50,7 +50,7 @@
 }
 
 .sidebar-channels__shirt::-webkit-scrollbar-thumb {
-  background-color: var(--background-color-500);
+  background-color: var(--background-color-600);
 
   border-radius: 100vw;
 }
@@ -80,4 +80,39 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+/* Shoes */
+.sidebar-channels__shoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--background-color-500);
+
+  padding: 8px;
+}
+
+.sidebar-channels__profile {
+  display: flex;
+  gap: 8px;
+}
+
+.sidebar-channels__profile-picture {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+.sidebar-channels__name {
+  color: var(--white);
+}
+
+.sidebar-channels__status {
+  color: var(--background-color-200);
+
+  font-size: 12px;
 }
