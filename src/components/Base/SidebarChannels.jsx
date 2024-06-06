@@ -19,15 +19,9 @@ const SidebarChannels = () => {
           </div>
         </div>
         <div className="sidebar-channels__shoes-controls">
-          <div className="sidebar__channels__control-container">
-            <img src={icons.micRed400} alt="" />
-          </div>
-          <div className="sidebar__channels__control-container">
-            <img src={icons.headphoneGrey300} alt="" />
-          </div>
-          <div className="sidebar__channels__control-container">
-            <img src={icons.settingGrey300} alt="" />
-          </div>
+          <img src={icons.micRed400} alt="" />
+          <img src={icons.headphoneGrey300} alt="" />
+          <img src={icons.settingGrey300} alt="" />
         </div>
       </div>
     </div>

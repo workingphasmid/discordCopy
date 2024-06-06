@@ -5,7 +5,7 @@
 
   background-color: var(--background-color-400);
 
-  width: 20%;
+  width: 18%;
 }
 
 /* Hat */
@@ -91,6 +91,7 @@
   background-color: var(--background-color-500);
 
   padding: 8px;
+  padding-right: 16px;
 }
 
 .sidebar-channels__profile {
@@ -115,4 +116,9 @@
   color: var(--background-color-200);
 
   font-size: 12px;
+}
+
+.sidebar-channels__shoes-controls {
+  display: flex;
+  gap: 12px;
 }
