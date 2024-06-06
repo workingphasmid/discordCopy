@@ -41,6 +41,16 @@
   overflow-y: scroll;
 }
 
+.sidebar-channels__shirt::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.sidebar-channels__shirt::-webkit-scrollbar-thumb {
+  background-color: var(--background-color-500);
+
+  border-radius: 100vw;
+}
+
 /* Channels */
 .sidebar-channels__channels {
   display: flex;
