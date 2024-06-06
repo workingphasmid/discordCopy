@@ -3,7 +3,13 @@ import Channels from "./Channels";
 
 const Shirt = () => {
   return (
-    <div>
+    <div className="sidebar-channels__shirt">
+      <Channels />
+      <Channels />
+      <Channels />
+      <Channels />
+      <Channels />
+      <Channels />
       <Channels />
     </div>
   );

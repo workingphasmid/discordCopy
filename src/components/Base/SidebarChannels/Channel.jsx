@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Channel = () => {
+const Channel = ({ icon, title }) => {
   return (
-    <div>Channel</div>
-  )
-}
+    <li className="sidebar-channels__channel">
+      <img src={icon} alt="" className="channel__icon" />
+      <h3 className="channel__title">{title}</h3>
+    </li>
+  );
+};
 
-export default Channel
+export default Channel;

@@ -30,21 +30,39 @@
   place-content: center;
 }
 
+/* Shirt */
+.sidebar-channels__shirt {
+  padding: 8px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  overflow-y: scroll;
+}
+
 /* Channels */
 .sidebar-channels__channels {
   display: flex;
   flex-direction: column;
 
-  padding: 15px 0;
-}
-
-.sidebar-channels__container-channels {
-  display: flex;
-
   color: var(--background-color-200);
 }
 
-.container-channels__title {
+.sidebar-channels__accordion-channels {
+  display: flex;
+  padding: 4px;
+}
+
+/* Channel */
+.sidebar-channels__channel {
+  display: flex;
+  gap: 12px;
+
+  padding: 2px 16px;
+}
+
+.accordion-channels__title {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
