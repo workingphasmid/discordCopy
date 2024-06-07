@@ -10,6 +10,10 @@ import headphoneGrey300 from "./headphone-grey-300.svg";
 import micRed400 from "./mic-red-400.svg";
 import settingGrey300 from "./setting-grey-300.svg";
 import searchGrey200 from "./search-grey-200.svg";
+import emojiGrey400 from "./emoji-grey-400.svg";
+import gifGrey400 from "./gif-grey-400.svg";
+import giftGrey400 from "./gift-grey-400.svg";
+import stickerGrey400 from "./sticker-grey-400.svg";
 
 const icons = {
   discordWhite,
@@ -24,6 +28,10 @@ const icons = {
   micRed400,
   settingGrey300,
   searchGrey200,
+  emojiGrey400,
+  gifGrey400,
+  giftGrey400,
+  stickerGrey400,
 };
 
 export default icons;

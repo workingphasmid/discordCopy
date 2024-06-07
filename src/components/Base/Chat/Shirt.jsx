@@ -1,5 +1,6 @@
 import React from "react";
 import Message from "./Message";
+import InputMessage from "./InputMessage";
 
 const Shirt = () => {
   return (
@@ -17,6 +18,7 @@ const Shirt = () => {
       <Message />
       <Message />
       <Message />
+      <InputMessage />
     </div>
   );
 };

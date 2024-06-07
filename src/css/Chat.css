@@ -122,3 +122,8 @@
 .chat-shirt__details-message {
   color: var(--grey-400);
 }
+
+/* InputMessage */
+.input-message__icon {
+  fill: var(--grey-400);
+}
